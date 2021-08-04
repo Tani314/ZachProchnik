@@ -1,5 +1,6 @@
 import React from "react";
-
+import "../styles/contact.css"
+import instalogo from '../assets/instalogo.jpeg'
 const Contact = props => {
   function sendEmail(e) {
     e.preventDefault();
@@ -42,8 +43,7 @@ const Contact = props => {
 
         <div className="contact1">
           <a href="https://www.instagram.com/131boerum/">
-              instagram
-            {/* <img src={LinkedIn} width="60" height="60" alt="Instagram" /> */}
+           <img src={instalogo} width="60" height="60" alt="Instagram" /> 
           </a>
         </div>
         <div className="footer">
