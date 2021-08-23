@@ -6,9 +6,7 @@ import { HomeText, MainWrapper, SectionWrapper} from "../styles/home";
 const Home = props => {
   return (
     //image
-
     <MainWrapper>
-
 <HomeText>
   <h2>
   Explore My Work

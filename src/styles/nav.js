@@ -11,11 +11,20 @@ export const Nav = styled.div`
     
   `
   export const NavText = styled.div`
-  display: flex;
+  display: inline;
   justify-content: space-between;
-  width: 50%;
-  padding-left: 50px;
   padding-bottom: 10px;
-  font-weight: bold;
-
+  font-family: 'Lobster', cursive;
+  font-size: large;
   `
+  export const linkStyle = {
+    color: '#484848',
+    float:'right',
+    padding: '5px 35px 0px 50px'
+  };
+
+  export const linkStyl = {
+    color: 'black',
+    float:'left',
+    padding: '5px 0px 0px 50px'
+  };

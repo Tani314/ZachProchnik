@@ -6,7 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {Nav,NavText} from "./styles/nav"
+import {Nav,NavText, linkStyle, linkStyl}from "./styles/nav"
 
 const App = () => {
   return (
@@ -14,11 +14,11 @@ const App = () => {
       <Router>
       <Nav>
       <NavText>
-        <Link to="/">ZACH PROCHNIK</Link>
-        <Link to="/work">Work</Link>
-        <Link to="/exhibition">Exhibition</Link>
-        <Link to="/about"> About</Link>
-        <Link to="/contact"> Contact</Link>
+        <Link to="/" style={linkStyl}>ZACH PROCHNIK</Link>
+        <Link to="/contact" style={linkStyle}> Contact</Link>
+        <Link to="/exhibition" style={linkStyle}>Exhibition</Link>
+        <Link to="/about" style={linkStyle}> About</Link>
+        <Link to="/work" style={linkStyle}>Work</Link>
 
         </NavText>
     </Nav>
